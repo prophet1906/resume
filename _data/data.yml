@@ -1,0 +1,208 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Shubham
+    tagline: Software Consultant
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: shubham.null@gmail.com
+    phone: +91-9644026902
+    timezone: India/IST Timezone
+    citizenship:
+    website: blog.reflection.cf #do not add http://
+    linkedin: shubham-972a79134
+    github: prophet1906
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@shubham_null'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://reflection.cf/resume.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Hindi
+          level: Native
+
+        - idiom: Telugu
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Electronic Music Production
+          link:
+
+        - item: Reading Books
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am skilled at developing applications for SAP BTP. I have been working
+      at SAP for more than five years. I worked on different roles including
+      but not limited to backend developer, DevOps / SRE, etc. I specialize in
+      functional programming and scalable application development for the cloud. 
+      I also occasionally contribute to and maintain FOSS projects in my free time.
+education:
+    title: Education
+    info:
+      - degree: M.Tech in Software Engineering
+        university: Birla Institute of Technology and Science, Pilani
+        time: 2017 - 2019
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: B.E. in Computer Science and Engineering
+        university: Bhilai Institute of Technology
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+experiences:
+    title: Experiences
+    info:
+      - role: Information Technology Consultant
+        time: Nov. 2021 - Present
+        company: SAP Labs, India, IT Platform Centre of Excellence
+        details: |
+          I act as a multiplier and technology expert, supporting IES
+          development teams in their cloud journey. I help evaluate new
+          offerings of the Business Technology Platform (BTP) and other
+          cloud technologies to position them in the internal IES cloud
+          strategy and drive technical decisions in SAP IES. I also provide
+          reference patterns, core services, and libraries to simplify the
+          cloud development experience. Part of my role also involves 
+          implementing central applications to improve the productivity
+          of all employees.
+      - role: Senior Software Engineer
+        time: March 2019 - Oct. 2021
+        company: SAP Labs, India, Master Data Integration
+        details: |
+          I am responsible for.
+      - role: Developer Associate, Scholar
+        time: Sept. 2018 - March 2019
+        company: SAP Labs, India, S/4 Hana Application Security
+        details: |
+          I am responsible for.
+      - role: Research Fellow, Scholar
+        time: June 2018 - Sept. 2018
+        company: SAP SE, Germany, IT Platform Centre of Excellence
+        details: |
+          I am responsible for.
+      - role: Developer Associate, Scholar
+        time: April 2018 - May 2018
+        company: SAP Labs, India, Build
+        details: |
+          I am responsible for.
+      - role: Developer Associate, Scholar
+        time: Sept 2017 - April 2018
+        company: SAP Concur, India, Service Innovation
+        details: |
+          I am responsible for.
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: ReasonML
+        level: 90%
+
+      - name: Node.JS
+        level: 90%
+
+      - name: Java
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
