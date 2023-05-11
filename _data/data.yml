@@ -161,9 +161,9 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Following list contains projects where I made significant contribution.
+      This list doesn't include projects where my contributions were limited to
+      small features which can be implemented in a day or two.
     assignments:
       - title: Honeycomb Next Generation
         link: "#"
@@ -200,9 +200,9 @@ projects:
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Most of my open source contributions are triggered by my usage of corresponding project.
+      I wasn't actively looking for issues to resolve in these projects. I just happened to
+      stumble on them accidentally.
     contributions:
       - title: Spring Cloud Connector for SAP Cloud Platform
         link: "#"
