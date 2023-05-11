@@ -43,7 +43,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Electronic Music Production
+        - item: 3d Modeling 
           link:
 
         - item: Reading Books
@@ -53,35 +53,38 @@ career-profile:
     title: Career Profile
     summary: |
       I am skilled at developing applications for SAP BTP. I have been working
-      at SAP for more than five years. I worked on different roles including
+      at SAP for more than six years. I worked on different roles including
       but not limited to backend developer, DevOps / SRE, etc. I specialize in
-      functional programming and scalable application development for the cloud. 
-      I also occasionally contribute to and maintain FOSS projects in my free time.
+      designing and developing scalable cloud native applications. I also like
+      contributing to FOSS projects which I used on daily basis.
 education:
     title: Education
     info:
+      - degree: Doctor of Philosophy - PhD in Formal Verification
+        university: International Institute of Information Technology, Bangalore
+        time: 2023 - Present
+        details: |
+          I am currently exploring different formal verification techniques and
+          identifying exact class of problems to solve during my tenure. I am 
+          inclined towards exploring non-deterministic systems and would like to 
+          study their behavior more formally.
       - degree: M.Tech in Software Engineering
         university: Birla Institute of Technology and Science, Pilani
         time: 2017 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          My study focused on designing scalable distributed systems following
+          restrictions in enterprise landscape. The course had some practical
+          components as well to inculcate project management skills. I was also
+          working for SAP during this duration and the course was aligned with
+          my work at SAP.
       - degree: B.E. in Computer Science and Engineering
-        university: Bhilai Institute of Technology
-        time: 2007 - 2011
+        university: Bhilai Institute of Technology, Durg
+        time: 2013 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I learned the foundations of computer science during this undergraduate
+          program. I was actively managing coding clubs and participating in
+          hackathons during my tenure. This was also the period when I identified
+          my interest in software engineering and research.
 experiences:
     title: Experiences
     info:
@@ -98,31 +101,63 @@ experiences:
           cloud development experience. Part of my role also involves 
           implementing central applications to improve the productivity
           of all employees.
-      - role: Senior Software Engineer
+      - role: Developer 
         time: March 2019 - Oct. 2021
         company: SAP Labs, India, Master Data Integration
         details: |
-          I am responsible for.
+          My most notable contribution to SAP was in Master Data Integration(MDI).
+          My work involved working with functional programming languages like Scala, 
+          OCaml, and ReasonML to deliver critical components of MDI. I also worked 
+          as SRE and promoted DevOps culture. I also got experience with developing 
+          bots and automating redundant tasks. All applications I developed during 
+          my tenure with this team worked at scale(billions of requests). This team
+          was a major learning milestone for me. I learned about formal verification 
+          while developing critical components for this team.
       - role: Developer Associate, Scholar
         time: Sept. 2018 - March 2019
         company: SAP Labs, India, S/4 Hana Application Security
         details: |
-          I am responsible for.
+          I joined this team for my 3rd Practical Phase as part of M.Tech at SAP.
+          I was responsible for delivering a security reports dashboard. This 
+          dashboard aggregated security vulnerabilities and other information for all 
+          projects within SAP. This dashboard also provided all executives with a 
+          birds-eye view of their products.
       - role: Research Fellow, Scholar
         time: June 2018 - Sept. 2018
         company: SAP SE, Germany, IT Platform Centre of Excellence
         details: |
-          I am responsible for.
+          I created a prototype for internal team switching and connecting managers 
+          with candidates in 2017. It was a cardboard prototype developed in my free 
+          time to learn new technologies. The prototype went viral. The head of the 
+          vocational training program appreciated the idea and offered me a fellowship 
+          to stay in Germany for three months and productize this idea for global usage. 
+          I was responsible for redeveloping the same application from scratch but with 
+          quality as the core focus this time.
       - role: Developer Associate, Scholar
         time: April 2018 - May 2018
         company: SAP Labs, India, Build
         details: |
-          I am responsible for.
+          I participated in a hackathon at SAP. The forcus of this hackathon was to
+          create a prototype for disruptive ideas which can capture new customers, but
+          are not high priority for product teams because of high initial investment.
+          The ideas came from real product team backlog. I got selected to implement one
+          of the ideas from SAP Build team. SAP Build was a UI prototyping and Low Code,
+          No Code Platform which allowed users to drag and drop UI components connect to
+          different backends and generate source code for SAPUI5 apps without writing any
+          code. I was tasked with automatically generating source code for Android and iOS
+          apps using existing interface. My team(total 4 members) successfully implemented
+          and delivered the prototype and were runner up in the competition.
       - role: Developer Associate, Scholar
         time: Sept 2017 - April 2018
         company: SAP Concur, India, Service Innovation
         details: |
-          I am responsible for.
+          I was responsible for creating a tool to automate configuration migration 
+          for companies within the same industry. Most companies within a particular 
+          industry use the same set of software with minor tweaks. This automation helped 
+          save many consultant efforts and reduce the redundant job of manually feeding 
+          configurations. I also developed a plugin(used machine learning) to detect 
+          non-reimbursable items(alcohol,...) from any expense receipt in Concur's travel 
+          and expense management system.
 projects:
     title: Projects
     intro: >
@@ -130,25 +165,37 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
+      - title: Honeycomb Next Generation
+        link: "#"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Master Data Integration(ONE Master Data Service)
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Security Reports Dashboard
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title: Cloud Foundry Java Utils Library
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Talent Marketplace
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+      - title: SAP Build for Android and iOS 
+        link: "#"
+        tagline: "asda"
+
+      - title: Sherlogs
+        link: "#"
+        tagline: "asd"
+
+      - title: Concur Configuration Migration Tool(SWBRTA)
+        link: "#"
+        tagline: "asd"
 
 oss:
     title: OSS Contributions
@@ -157,17 +204,26 @@ oss:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
+      - title: Spring Cloud Connector for SAP Cloud Platform
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title: Node.js Logging Support for Cloud Foundry
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Microsoft Rush Stack
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+      - title: PMD - source code analyzer 
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+      - title: Renovate 
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 
 publications:
     title: Publications
@@ -176,20 +232,10 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Subjective Model Answer Generation Tool for Digital Evaluation Systems 
+        link: "https://ceur-ws.org/Vol-1819/edudm2017-paper3.pdf"
+        authors: Shubham, Dr. Arpana Rawal, Dr. Ani Thomas 
+        conference: ISEC 2017, Educational Data Mining Practices in Indian Academia 
 
 skills:
     title: Skills &amp; Proficiency
